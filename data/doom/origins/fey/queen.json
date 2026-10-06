@@ -1,0 +1,22 @@
+{
+    "name": "Queen Fey",
+    "description": "Placeholder for future information.",
+    "icon": "mna:crystallized_wind",
+    
+    "order": 1,
+    "impact": 3,
+
+    "powers": [
+        "rose:better_fairy_wings"
+    ],
+
+    "upgrades": [
+        {
+            "condition": "minecraft:nether/summon_wither",
+            "origin": "rose:fey/empress",
+            "announcement": "Insert message here.4"
+        }
+    ],
+
+    "unchoosable": true
+}

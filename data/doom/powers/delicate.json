@@ -1,0 +1,11 @@
+{
+    "name": "Delicate",
+    "description": "A collection of fairies aren't the most durable.",
+
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -6
+    }
+}

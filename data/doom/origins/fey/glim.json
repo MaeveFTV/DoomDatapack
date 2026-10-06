@@ -1,0 +1,22 @@
+{
+    "name": "Glimmering Fey",
+    "description": "Placeholder for future information.",
+    "icon": "mna:bone_ash",
+    
+    "order": 1,
+    "impact": 0,
+
+    "powers": [
+        "void:soft"
+    ],
+
+    "upgrades": [
+        {
+            "condition": "minecraft:story/mine_diamond",
+            "origin": "rose:fey/lady",
+            "announcement": "Insert message here."
+        }
+    ],
+
+    "unchoosable": false
+}

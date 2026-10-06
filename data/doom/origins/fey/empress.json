@@ -1,0 +1,14 @@
+{
+    "name": "Empress Fey",
+    "description": "Placeholder for future information.",
+    "icon": "mna:ritual_focus_minor",
+    
+    "order": 1,
+    "impact": 3,
+
+    "powers": [
+        "rose:better_fairy_wings"
+    ],
+
+    "unchoosable": true
+}

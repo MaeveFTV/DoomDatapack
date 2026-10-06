@@ -1,0 +1,22 @@
+{
+    "name": "Lady Fey",
+    "description": "Placeholder for future information.",
+    "icon": "mna:mote_air",
+    
+    "order": 1,
+    "impact": 1,
+
+    "powers": [
+        "rose:soft"
+    ],
+
+    "upgrades": [
+        {
+            "condition": "minecraft:story/enter_the_nether",
+            "origin": "rose:fey/princess",
+            "announcement": "Insert message here. 2"
+        }
+    ],
+
+    "unchoosable": true
+}
