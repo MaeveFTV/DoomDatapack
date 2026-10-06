@@ -7,16 +7,16 @@
     "impact": 1,
 
     "powers": [
-        "rose:soft"
+        "doom:soft"
     ],
 
     "upgrades": [
         {
             "condition": "minecraft:story/enter_the_nether",
-            "origin": "rose:fey/princess",
+            "origin": "doom:fey/princess",
             "announcement": "Insert message here. 2"
         }
     ],
 
-    "unchoosable": true
+    "unchoosable": false
 }

@@ -2,21 +2,19 @@
     "name": "Princess Fey",
     "description": "Placeholder for future information.",
     "icon": "mna:greater_mote_air",
-    
+
     "order": 1,
     "impact": 2,
 
     "powers": [
-        "rose:fairy_wings"
+        "doom:fairy_wings"
     ],
-
     "upgrades": [
         {
             "condition": "minecraft:end/dragon_egg",
-            "origin": "rose:fey/queen",
+            "origin": "doom:fey/queen",
             "announcement": "Insert message here. 3"
         }
     ],
-
-    "unchoosable": true
+    "unchoosable": false
 }

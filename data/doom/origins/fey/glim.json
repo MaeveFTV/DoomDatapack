@@ -7,13 +7,13 @@
     "impact": 0,
 
     "powers": [
-        "void:soft"
+        "doom:soft"
     ],
 
     "upgrades": [
         {
             "condition": "minecraft:story/mine_diamond",
-            "origin": "rose:fey/lady",
+            "origin": "doom:fey/lady",
             "announcement": "Insert message here."
         }
     ],

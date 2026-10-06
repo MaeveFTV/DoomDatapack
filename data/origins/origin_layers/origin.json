@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "origins": [
+        "doom:fey/glim",
+        "doom:fey/lady",
+        "doom:fey/princess",
+        "doom:fey/queen",
+        "doom:fey/empress"
+    ]
+}

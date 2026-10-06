@@ -7,16 +7,16 @@
     "impact": 3,
 
     "powers": [
-        "rose:better_fairy_wings"
+        "doom:better_fairy_wings"
     ],
 
     "upgrades": [
         {
             "condition": "minecraft:nether/summon_wither",
-            "origin": "rose:fey/empress",
+            "origin": "doom:fey/empress",
             "announcement": "Insert message here.4"
         }
     ],
 
-    "unchoosable": true
+    "unchoosable": false
 }

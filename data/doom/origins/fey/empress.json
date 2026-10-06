@@ -7,8 +7,8 @@
     "impact": 3,
 
     "powers": [
-        "rose:better_fairy_wings"
+        "doom:better_fairy_wings"
     ],
 
-    "unchoosable": true
+    "unchoosable": false
 }
