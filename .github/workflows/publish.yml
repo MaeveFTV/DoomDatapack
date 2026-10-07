@@ -32,10 +32,14 @@ jobs:
           scheme: semver
           increment: patch
 
-      - name: Create artifact directory
-        run: mkdir artifact
       - name: Zip folder
-        run: zip -rv "artifact/Doom_dp_${{ steps.version.outputs.version }}.zip" pack.mcmeta data
+        run: zip -rv "Doom_dp_${{ steps.version.outputs.version }}.zip" pack.mcmeta data
+
+      - name: Upload zip as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: "Doom datapack v${{ steps.version.outputs.version }}"
+          path: "Doom_dp_${{ steps.version.outputs.version }}.zip"
 
       - name: Create release
         uses: elgohr/Github-Release-Action@v5
@@ -44,6 +48,5 @@ jobs:
         id: create_release
         with:
           title: "Doom datapack v${{ steps.version.outputs.version }}"
-          workdir: artificat
           tag: ${{ steps.version.outputs.version }}
           prerelease: false
