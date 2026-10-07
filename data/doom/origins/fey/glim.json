@@ -8,7 +8,9 @@
 
     "powers": [
         "doom:soft",
-        "doom:fey_glow"
+        "doom:fey_glow",
+        "doom:stealth",
+        "doom:sparkles"
     ],
 
     "upgrades": [

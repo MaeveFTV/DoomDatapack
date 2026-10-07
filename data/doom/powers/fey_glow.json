@@ -7,12 +7,17 @@
         "type": "origins:apply_effect",
         "effect": {
             "effect": "minecraft:glowing",
-            "duration": 40,
+            "duration": 22,
             "amplifier" : 0,
             "is_ambient": false,
             "show_particles": false,
             "show_icon": false
         }
+    },
+
+    "condition": {
+        "type": "origins:sneaking",
+        "inverted": true
     }
 
 }

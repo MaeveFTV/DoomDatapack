@@ -1,0 +1,10 @@
+{
+    "name": "HIDE YOURSELF YOU FOOL",
+    "description": "AHHHH",
+    
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "condition": {
+        "type": "origins:sneaking"
+    }
+}
