@@ -12,7 +12,7 @@
 
     "upgrades": [
         {
-            "condition": "minecraft:story/mine_diamond",
+            "condition": "doom:sprite_hive/lady",
             "origin": "doom:fey/lady",
             "announcement": "Insert message here."
         }
