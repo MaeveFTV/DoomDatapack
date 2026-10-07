@@ -16,5 +16,5 @@
             "announcement": "Insert message here. 3"
         }
     ],
-    "unchoosable": false
+    "unchoosable": true
 }
