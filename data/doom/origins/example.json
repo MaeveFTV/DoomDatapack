@@ -1,0 +1,21 @@
+{
+    "name": "Example",
+    "description": "Placeholder for future information.",
+    "icon": "minecraft:grass_block",
+    
+    "order": 1,
+    "impact": 0,
+
+    "powers": [
+    ],
+
+    "upgrades": [
+        {
+            "condition": "minecraft:story/mine_diamond",
+            "origin": "doom:example",
+            "announcement": "Insert message here."
+        }
+    ],
+
+    "unchoosable": false
+}
