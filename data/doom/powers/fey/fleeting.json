@@ -1,6 +1,6 @@
 {
-    "name": "Delicate",
-    "description": "A collection of fairies aren't the most durable.",
+    "name": "Fleeting",
+    "description": "Your physical form is easily disrupted, making it difficult to maintain a stable presence.",
 
     "type": "origins:attribute",
     "modifier": {

@@ -1,18 +1,17 @@
 {
-    "name": "Glimmering Fey",
-    "description": "Placeholder for future information.",
+    "name": "Clustered Sprites",
+    "description": "You're a small hivemind of sprites working together to affect the physical world.",
     "icon": "mna:bone_ash",
     
     "order": 1,
     "impact": 0,
 
     "powers": [
-        "doom:fey/soft",
-        "doom:fey/fey_glow",
-        "doom:fey/stealth",
-        "doom:fey/sparkles",
-        "doom:fey/delicate",
-        "doom:fey/weak"
+        "doom:fey/what_is_gravity",
+        "doom:fey/shining_sprites",
+        "doom:fey/scatter_hide",
+        "doom:fey/fleeting",
+        "doom:fey/insubstantial"
     ],
 
     "upgrades": [

@@ -1,6 +1,6 @@
 {
-    "name": "Soft Walk",
-    "description": "Soft footsteps.",
+    "name": "Gravity?",
+    "description": "You don't understand the concept of gravity. Why stay grounded if you can simply float about?",
 
     "type": "origins:action_over_time",
     "entity_action": {

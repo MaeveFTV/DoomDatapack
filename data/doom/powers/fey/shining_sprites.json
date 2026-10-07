@@ -1,0 +1,34 @@
+{
+    "name": "Shining Sprites",
+    "description": "You practically radiate with Magic now, each of your bodies shines brighter than ever. Lost fairies and transferring magic sparkles around you. Unfortunately this makes you much easier to find.",
+
+    "type": "origins:multiple",
+
+    "particles": {
+        "type": "origins:particle",
+        "particle": "minecraft:wax_off",
+        "frequency": 4,
+        "condition": {
+            "type": "origins:sneaking",
+            "inverted": true
+        }
+    },
+    "glowing": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+        "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:glowing",
+                "duration": 21,
+                "amplifier" : 0,
+                "is_ambient": false,
+                "show_particles": false,
+                "show_icon": false
+            }
+        },
+        "condition": {
+            "type": "origins:sneaking",
+            "inverted": true
+        }
+    }
+}

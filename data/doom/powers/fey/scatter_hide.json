@@ -1,0 +1,11 @@
+{
+    "name": "Scatter! Hide!",
+    "description": "Your glow fades as the fairies change their formation to one the monsters of the world do not recognize. The unfamiliar form makes you slower though.",
+    
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "condition": {
+        "type": "origins:glowing",
+        "inverted": true
+    }
+}
