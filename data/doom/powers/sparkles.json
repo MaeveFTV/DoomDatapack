@@ -4,5 +4,7 @@
 
     "type": "origins:particle",
     "particle": "minecraft:wax_off",
-    "frequency": 4
+    "frequency": 4,
+
+    "hidden": true
 }

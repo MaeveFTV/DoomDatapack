@@ -11,7 +11,8 @@
         "doom:fey_glow",
         "doom:stealth",
         "doom:sparkles",
-        "doom:delicate"
+        "doom:delicate",
+        "doom:weak"
     ],
 
     "upgrades": [

@@ -1,0 +1,12 @@
+{
+    "name": "MANA REGEN",
+    "description": "regenerationg",
+    
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Increase Mana Regen",
+        "attribute": "mna_attributes:mana_regen",
+        "value": 4,
+        "operation": "addition"
+    }
+}
