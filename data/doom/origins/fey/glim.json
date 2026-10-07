@@ -7,7 +7,8 @@
     "impact": 0,
 
     "powers": [
-        "doom:soft"
+        "doom:soft",
+        "doom:fey_glow"
     ],
 
     "upgrades": [
