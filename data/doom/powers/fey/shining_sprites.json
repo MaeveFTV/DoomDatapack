@@ -1,6 +1,6 @@
 {
-    "name": "Fairy-Like Glow",
-    "description": "The collective fey glow shines bright like a diamond.",
+    "name": "Shining Sprites",
+    "description": "You practically radiate with Magic now, each of your bodies shines brighter than ever. Lost fairies and transferring magic sparkles around you. Unfortunately this makes you much easier to find.",
 
     "type": "origins:multiple",
 
@@ -24,11 +24,11 @@
                 "is_ambient": false,
                 "show_particles": false,
                 "show_icon": false
-        }
-    },
-    "condition": {
-        "type": "origins:sneaking",
-        "inverted": true
+            }
+        },
+        "condition": {
+            "type": "origins:sneaking",
+            "inverted": true
         }
     }
 }
