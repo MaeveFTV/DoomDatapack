@@ -40,11 +40,7 @@ jobs:
         with:
           name: "Doom datapack v${{ steps.version.outputs.version }}"
           path: "Doom_dp_${{ steps.version.outputs.version }}.zip"
-
-      - name: Create release
-        run: github-release upload \
-              --token '${{ secrets.GITHUB_TOKEN }}' \
-
+          
       - name: Release
         uses: softprops/action-gh-release@v3
         with:
