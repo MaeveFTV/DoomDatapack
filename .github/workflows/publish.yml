@@ -1,4 +1,4 @@
-name: CI
+name: Publish
 
 # Controls when the workflow will run
 on:
@@ -31,8 +31,11 @@ jobs:
         with:
           scheme: semver
           increment: patch
+
+      - name: Create artifact directory
+        run: mkdir artifact
       - name: Zip folder
-        run: zip -rv "artificat/Doom_dp_${{ steps.version.outputs.version }}.zip" pack.mcmeta data
+        run: zip -rv "artifact/Doom_dp_${{ steps.version.outputs.version }}.zip" pack.mcmeta data
 
       - name: Create release
         uses: elgohr/Github-Release-Action@v5
