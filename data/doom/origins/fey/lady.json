@@ -7,8 +7,8 @@
     "impact": 1,
 
     "powers": [
-        "doom:soft",
-        "doom:mana_regen"
+        "doom:fey/soft",
+        "doom:fey/mana_regen"
     ],
 
     "upgrades": [
