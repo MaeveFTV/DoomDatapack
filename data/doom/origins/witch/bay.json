@@ -4,7 +4,7 @@
     "icon": "malum:cluster_of_brilliance",
     
     "order": 1,
-    "impact": 0,
+    "impact": 2,
 
     "powers": [
         "doom:witch/alliance"
@@ -18,5 +18,5 @@
         }
     ],
 
-    "unchoosable": false
+    "unchoosable": true
 }

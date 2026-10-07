@@ -4,7 +4,7 @@
     "icon": "malum:brilliant_deepslate",
     
     "order": 1,
-    "impact": 0,
+    "impact": 3,
 
     "powers": [
     ],
@@ -17,5 +17,5 @@
         }
     ],
 
-    "unchoosable": false
+    "unchoosable": true
 }
