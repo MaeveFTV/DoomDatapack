@@ -7,7 +7,7 @@
     "impact": 3,
 
     "powers": [
-        "doom:better_fairy_wings"
+        "doom:fey/better_fairy_wings"
     ],
 
     "unchoosable": true

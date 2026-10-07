@@ -7,12 +7,12 @@
     "impact": 0,
 
     "powers": [
-        "doom:soft",
-        "doom:fey_glow",
-        "doom:stealth",
-        "doom:sparkles",
-        "doom:delicate",
-        "doom:weak"
+        "doom:fey/soft",
+        "doom:fey/fey_glow",
+        "doom:fey/stealth",
+        "doom:fey/sparkles",
+        "doom:fey/delicate",
+        "doom:fey/weak"
     ],
 
     "upgrades": [
