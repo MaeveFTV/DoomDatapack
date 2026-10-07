@@ -1,0 +1,7 @@
+{
+    "name": "Alliance",
+    "description": "Your vengence has marked you as dangerous.",
+
+    "type": "origins:entity_group",
+    "group": "illager"
+}

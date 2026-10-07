@@ -1,0 +1,21 @@
+{
+    "name": "Sea Vindicator",
+    "description": "Placeholder for future information.",
+    "icon": "malum:brilliant_deepslate",
+    
+    "order": 1,
+    "impact": 0,
+
+    "powers": [
+    ],
+
+    "upgrades": [
+        {
+            "condition": "minecraft:nether/summon_wither",
+            "origin": "doom:witch/ocean",
+            "announcement": "Insert message here."
+        }
+    ],
+
+    "unchoosable": false
+}

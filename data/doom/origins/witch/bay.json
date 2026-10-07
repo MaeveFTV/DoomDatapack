@@ -1,0 +1,22 @@
+{
+    "name": "Bay Evoker",
+    "description": "Placeholder for future information.",
+    "icon": "malum:cluster_of_brilliance",
+    
+    "order": 1,
+    "impact": 0,
+
+    "powers": [
+        "doom:witch/alliance"
+    ],
+
+    "upgrades": [
+        {
+            "condition": "minecraft:end/dragon_egg",
+            "origin": "doom:witch/sea",
+            "announcement": "Insert message here."
+        }
+    ],
+
+    "unchoosable": false
+}
