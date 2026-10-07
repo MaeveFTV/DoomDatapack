@@ -1,0 +1,50 @@
+name: Publish
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Set run permissions
+permissions:
+  packages: write
+  contents: write
+  
+# Actions to do
+jobs:
+  package:
+    name: Zip Datapack and Publish
+    runs-on: ubuntu-latest
+    steps:
+      # Allow the job to access the repo
+      - uses: actions/checkout@v4
+      
+      - name: Get Version number
+        uses: reecetech/version-increment@2026.8.4
+        id: version
+        with:
+          scheme: semver
+          increment: patch
+
+      - name: Zip folder
+        run: zip -rv "Doom_dp_${{ steps.version.outputs.version }}.zip" pack.mcmeta data
+
+      - name: Upload zip as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: "Doom datapack v${{ steps.version.outputs.version }}"
+          path: "Doom_dp_${{ steps.version.outputs.version }}.zip"
+          
+      - name: Release
+        uses: softprops/action-gh-release@v3
+        with:
+          name: "Doom datapack v${{ steps.version.outputs.version }}"
+          tag_name: ${{ steps.version.outputs.version }}
+          make_latest: true
+          files: "Doom_dp_${{ steps.version.outputs.version }}.zip"
