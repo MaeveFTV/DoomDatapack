@@ -42,11 +42,13 @@ jobs:
           path: "Doom_dp_${{ steps.version.outputs.version }}.zip"
 
       - name: Create release
-        uses: elgohr/Github-Release-Action@v5
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        id: create_release
+        run: github-release upload \
+              --token '${{ secrets.GITHUB_TOKEN }}' \
+
+      - name: Release
+        uses: softprops/action-gh-release@v3
         with:
-          title: "Doom datapack v${{ steps.version.outputs.version }}"
-          tag: ${{ steps.version.outputs.version }}
-          prerelease: false
+          name: "Doom datapack v${{ steps.version.outputs.version }}"
+          tag_name: ${{ steps.version.outputs.version }}
+          make_latest: true
+          files: "Doom_dp_${{ steps.version.outputs.version }}.zip"
