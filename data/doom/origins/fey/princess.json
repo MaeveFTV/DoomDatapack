@@ -11,7 +11,7 @@
     ],
     "upgrades": [
         {
-            "condition": "minecraft:end/dragon_egg",
+            "condition": "doom:sprite_hive/queen",
             "origin": "doom:fey/queen",
             "announcement": "Insert message here. 3"
         }

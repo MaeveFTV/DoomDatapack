@@ -12,7 +12,7 @@
 
     "upgrades": [
         {
-            "condition": "minecraft:story/enter_the_nether",
+            "condition": "doom:sprite_hive/princess",
             "origin": "doom:fey/princess",
             "announcement": "Insert message here. 2"
         }

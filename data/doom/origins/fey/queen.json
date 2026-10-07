@@ -12,7 +12,7 @@
 
     "upgrades": [
         {
-            "condition": "minecraft:nether/summon_wither",
+            "condition": "doom:sprite_hive/empress",
             "origin": "doom:fey/empress",
             "announcement": "Insert message here.4"
         }
