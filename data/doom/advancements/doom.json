@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "mna:greater_mote_fire"
+    },
+    "title": "A Fractured World",
+    "description": "You open your eyes and gaze upon the remnants of two realms merged. You awake in Abaddon.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "minecraft:textures/entity/end_portal.png",
+    "hidden": false
+  },
+  "criteria": {
+    "exist": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
