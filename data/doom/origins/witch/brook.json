@@ -1,0 +1,21 @@
+{
+    "name": "Brook Maiden",
+    "description": "Placeholder for future information.",
+    "icon": "malum:chunk_of_brilliance",
+    
+    "order": 1,
+    "impact": 0,
+
+    "powers": [
+    ],
+
+    "upgrades": [
+        {
+            "condition": "minecraft:story/mine_diamond",
+            "origin": "doom:witch/lake",
+            "announcement": "Insert message here."
+        }
+    ],
+
+    "unchoosable": false
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Ocean Justiciar",
+    "description": "Placeholder for future information.",
+    "icon": "malum:block_of_brilliance",
+    
+    "order": 1,
+    "impact": 0,
+
+    "powers": [
+    ],
+
+    "unchoosable": false
+}

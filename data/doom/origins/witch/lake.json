@@ -1,0 +1,21 @@
+{
+    "name": "Lake Magician",
+    "description": "Placeholder for future information.",
+    "icon": "malum:crushed_brilliance",
+    
+    "order": 1,
+    "impact": 0,
+
+    "powers": [
+    ],
+
+    "upgrades": [
+        {
+            "condition": "minecraft:story/enter_the_nether",
+            "origin": "doom:witch/bay",
+            "announcement": "Insert message here."
+        }
+    ],
+
+    "unchoosable": false
+}
