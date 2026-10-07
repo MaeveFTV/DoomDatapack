@@ -1,0 +1,39 @@
+{
+    "parent": "doom:sprite_hive/shimmer",
+    "display": {
+        "icon": {
+            "item": "mna:mote_air"
+        },
+        "title": "Grasp the Realms Magic",
+        "description": "After spending some time in this strange realm, the courts understanding of its magic increases."
+    },
+
+    "criteria": {
+        "has_diamonds": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "minecraft:story/mine_diamond": true
+                        }
+                    }
+                }
+            }
+        },
+        "has_novice": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "mna:tier_0/codex_trade": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

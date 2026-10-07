@@ -1,0 +1,20 @@
+{
+    "parent": "doom:doom",
+    "display": {
+        "icon": {
+            "item": "magichem:mote_achromatic"
+        },
+        "title": "A New Court",
+        "description": "Newly gathered, these sprites form a new court. Through their chattering, a united voice can be heard. Your voice.",
+        "hidden": true
+    },
+
+    "criteria": {
+        "is_sprite_hive": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "doom:fey/glim"
+            }
+        }
+    }
+}
