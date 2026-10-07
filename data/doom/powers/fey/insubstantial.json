@@ -1,0 +1,11 @@
+{
+    "name": "Insubstantial",
+    "description": "Your physical form is barely anchored to the world. Actions requiring physical force are more difficult than they should be.",
+
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "name": "Reduced damage",
+        "operation": "multiply_base_additive",
+        "value": -0.3
+    }
+}
