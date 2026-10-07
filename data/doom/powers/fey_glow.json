@@ -7,7 +7,7 @@
         "type": "origins:apply_effect",
         "effect": {
             "effect": "minecraft:glowing",
-            "duration": 22,
+            "duration": 21,
             "amplifier" : 0,
             "is_ambient": false,
             "show_particles": false,
