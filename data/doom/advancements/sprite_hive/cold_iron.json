@@ -1,0 +1,39 @@
+{
+    "parent": "doom:sprite_hive/shimmer",
+    "display": {
+        "icon": {
+            "item": "cataclysm:blazing_grips"
+        },
+        "title": "Cold Iron",
+        "description": "This iron shell feels strangely solid and heavy against your fleeting form, making physical actions easier. However, the material seems to interfere with your ability to absorb mana.",
+        "hidden": false
+    },
+
+    "criteria": {
+        "wears_iron_helmet": {
+            "trigger": "minecraft:inventory_changed",
+
+            "conditions": {
+                "player": 
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        
+                        "equipment": {
+                            "head": {
+                                "items": ["minecraft:iron_helmet"]
+                            }
+                        }
+                        
+                    }
+                
+            }
+        }
+    },
+
+    "requirements": [
+        [
+            "wears_iron_helmet"
+        ]
+    ]
+}
