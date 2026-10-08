@@ -1,0 +1,20 @@
+{
+    "name": "Fey Countess",
+    "description": "Placeholder for future information.",
+    "icon": "mna:greater_mote_air",
+
+    "order": 1,
+    "impact": 2,
+
+    "powers": [
+        "doom:fey/fairy_wings"
+    ],
+    "upgrades": [
+        {
+            "condition": "doom:sprite_hive/princess",
+            "origin": "doom:fey/princess",
+            "announcement": "Insert message here. 3"
+        }
+    ],
+    "unchoosable": true
+}

@@ -1,20 +1,22 @@
 {
-    "name": "Princess Fey",
+    "name": "Fey Princess",
     "description": "Placeholder for future information.",
-    "icon": "mna:greater_mote_air",
-
+    "icon": "mna:crystallized_wind",
+    
     "order": 1,
-    "impact": 2,
+    "impact": 3,
 
     "powers": [
-        "doom:fey/fairy_wings"
+        "doom:fey/better_fairy_wings"
     ],
+
     "upgrades": [
         {
             "condition": "doom:sprite_hive/queen",
             "origin": "doom:fey/queen",
-            "announcement": "Insert message here. 3"
+            "announcement": "Insert message here.4"
         }
     ],
+
     "unchoosable": true
 }

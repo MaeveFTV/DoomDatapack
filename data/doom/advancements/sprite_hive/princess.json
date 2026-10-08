@@ -1,35 +1,30 @@
 {
-    "parent": "doom:sprite_hive/lady",
+    "parent": "doom:sprite_hive/countess",
     "display": {
         "icon": {
-            "item": "cataclysm:essence_of_the_storm"
+            "item": "magichem:occulted_spark"
         },
-        "title": "The Courts Debut",
-        "description": "Having proven your resilience and made your debut in the Fey faction, other courts have no choice but to recognize your existence."
+        "title": "A Court to Be Reckoned With",
+        "description": "Once a faint little court, you have proven your strength. Other courts now count you among their elite."
     },
-    
+
     "criteria": {
-        "has_entered_nether": {
-            "trigger": "minecraft:tick",
+        "defeat_ender_dragon": {
+            "trigger": "minecraft:player_killed_entity",
             "conditions": {
-                "player": {
-                    "type_specific": {
-                        "type": "player",
-                        "advancements": {
-                            "minecraft:story/enter_the_nether": true
-                        }
-                    }
+                "entity": {
+                    "type": "minecraft:ender_dragon"
                 }
             }
         },
-        "has_joined_fey_faction": {
+        "has_advance_tier_5": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
                     "type_specific": {
                         "type": "player",
                         "advancements": {
-                            "mna:faction/join_fey": true
+                            "mna:tier_4/advance_tier_5": true
                         }
                     }
                 }

@@ -1,0 +1,39 @@
+{
+    "parent": "doom:sprite_hive/lady",
+    "display": {
+        "icon": {
+            "item": "cataclysm:essence_of_the_storm"
+        },
+        "title": "The Courts Debut",
+        "description": "Having proven your resilience and made your debut in the Fey faction, other courts have no choice but to recognize your existence."
+    },
+    
+    "criteria": {
+        "has_entered_nether": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "minecraft:story/enter_the_nether": true
+                        }
+                    }
+                }
+            }
+        },
+        "has_joined_fey_faction": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "advancements": {
+                            "mna:faction/join_fey": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

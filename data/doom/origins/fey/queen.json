@@ -1,21 +1,13 @@
 {
-    "name": "Queen Fey",
+    "name": "Fey Queen",
     "description": "Placeholder for future information.",
-    "icon": "mna:crystallized_wind",
+    "icon": "mna:ritual_focus_minor",
     
     "order": 1,
     "impact": 3,
 
     "powers": [
         "doom:fey/better_fairy_wings"
-    ],
-
-    "upgrades": [
-        {
-            "condition": "doom:sprite_hive/empress",
-            "origin": "doom:fey/empress",
-            "announcement": "Insert message here.4"
-        }
     ],
 
     "unchoosable": true

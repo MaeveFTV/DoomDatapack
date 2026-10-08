@@ -13,8 +13,8 @@
 
     "upgrades": [
         {
-            "condition": "doom:sprite_hive/princess",
-            "origin": "doom:fey/princess",
+            "condition": "doom:sprite_hive/countess",
+            "origin": "doom:fey/countess",
             "announcement": "Insert message here. 2"
         }
     ],

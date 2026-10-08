@@ -2,29 +2,29 @@
     "parent": "doom:sprite_hive/princess",
     "display": {
         "icon": {
-            "item": "magichem:occulted_spark"
+            "item": "botania:corporea_spark_master"
         },
-        "title": "A Court to Be Reckoned With",
-        "description": "Once a faint little court, you have proven your strength. Other courts now count you among their elite."
+        "title": "A court, A Queen",
+        "description": "A little court, which even the fey queens honor."
     },
 
     "criteria": {
-        "defeat_ender_dragon": {
+        "defeat_wither": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:ender_dragon"
+                    "type": "minecraft:wither"
                 }
             }
         },
-        "has_advance_tier_5": {
+        "has_defeat_fey_queens": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": {
                     "type_specific": {
                         "type": "player",
                         "advancements": {
-                            "mna:tier_4/advance_tier_5": true
+                            "mna:boss/defeat_fey_queens": true
                         }
                     }
                 }
