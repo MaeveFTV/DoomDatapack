@@ -4,10 +4,10 @@
     "icon": "malum:block_of_brilliance",
     
     "order": 1,
-    "impact": 0,
+    "impact": 3,
 
     "powers": [
     ],
 
-    "unchoosable": false
+    "unchoosable": true
 }

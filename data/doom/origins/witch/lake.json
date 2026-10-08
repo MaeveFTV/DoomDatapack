@@ -4,7 +4,7 @@
     "icon": "malum:crushed_brilliance",
     
     "order": 1,
-    "impact": 0,
+    "impact": 1,
 
     "powers": [
     ],
@@ -17,5 +17,5 @@
         }
     ],
 
-    "unchoosable": false
+    "unchoosable": true
 }
