@@ -1,0 +1,27 @@
+{
+    "name": "Scatter! Hide!",
+    "description": "Your glow fades as the fairies change their formation to one the monsters of the world do not recognize. The unfamiliar form makes you unable to move though.",    
+    "type": "origins:multiple",
+    
+    "invisible": {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition": {
+            "type": "origins:glowing",
+            "inverted": true
+        }
+    },
+    "rooted": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.movement_speed",
+        "modifier": {
+            "name": "Reduced walk speed",
+            "operation": "set_total",
+            "value": 0
+        },
+        "condition": {
+            "type": "origins:glowing",
+            "inverted": true
+        }
+    }
+}
