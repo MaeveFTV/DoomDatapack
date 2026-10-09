@@ -13,5 +13,241 @@
             "show_particles": false,
             "show_icon": false
         }
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "head",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:iron_helmet"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "chest",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:iron_chestplate"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "legs",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:iron_leggings"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "feet",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:iron_boots"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "head",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:golden_helmet"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "chest",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:golden_chestplate"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "legs",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:golden_leggings"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "feet",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:golden_boots"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "head",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:netherite_helmet"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "chest",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:netherite_chestplate"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "legs",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:netherite_leggings"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "feet",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:netherite_boots"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "head",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "cataclysm:cursium_helmet"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "chest",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "cataclysm:cursium_chestplate"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "legs",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "cataclysm:cursium_leggings"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "feet",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "cataclysm:cursium_boots"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "head",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "cataclysm:ignitium_helmet"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "chest",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "cataclysm:ignitium_chestplate"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "chest",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "cataclysm:ignitium_elytra_chestplate"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "legs",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "cataclysm:ignitium_leggings"
+                    }
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "feet",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "cataclysm:ignitium_boots"
+                    }
+                },
+                "inverted": true
+            }
+        ]
     }
 }
