@@ -11,7 +11,9 @@
         "doom:fey/shining_sprites",
         "doom:fey/scatter_hide",
         "doom:fey/fleeting",
-        "doom:fey/insubstantial"
+        "doom:fey/insubstantial",
+        
+        "doom:fey/cold_iron"
     ],
 
     "upgrades": [
